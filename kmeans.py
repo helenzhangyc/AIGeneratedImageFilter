@@ -137,9 +137,9 @@ for feat in centroid_feature:
     for id in qualified_img_idx[0]:
         qualified_img.append(img_name[id])
 qualified_img = list(set(qualified_img))    
-os.mkdir('qualified_ai_generated_images')
+os.mkdir('qualified_ai_generated_images_kmeans')
 for name in qualified_img:
-    shutil.copy(os.path.join('ai_generated', name), 'qualified_ai_generated_images')
+    shutil.copy(os.path.join('ai_generated', name), 'qualified_ai_generated_images_kmeans')
 
 # delete clusters
 for i in range(k):

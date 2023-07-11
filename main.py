@@ -6,4 +6,5 @@ if len(unqualified_reference) == 0:
     os.system('python kmeans.py')
 else:
     # run svm
+    os.system('python kmeans.py')
     os.system('python svm.py')
