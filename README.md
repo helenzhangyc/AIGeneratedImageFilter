@@ -1,4 +1,4 @@
-# AIGeneratedImageFilter
+# AI-Generated Image Filter
 A tool to filter out unqualified AI-Generated Images
 Given a set of reference images, which contains qualified reference images and unqualified reference images (optional), filter out the unqualified AI-Generated Images
 
