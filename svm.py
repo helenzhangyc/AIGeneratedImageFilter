@@ -84,18 +84,4 @@ for name in ai_list:
     if Categories[model.predict(l)[0]] != "unqualified_reference_img":
         # this is a qualified image
         shutil.copy(fname, "qualified_ai_generated_images_svm")
-
-# assume there are 20 AI-generated orange images
-
-# idx = 0
-
-# for name in orange_list:
-#     idx += 1
-#     if idx == 20:
-#         break
-#     fname = unqualified_reference_path + "/" + name
-#     img = imread(fname)
-#     img_resize = resize(img, (150, 150, 3))
-#     l = [img_resize.flatten()]
-#     if Categories[model.predict(l)[0]] == "qualified_reference_img":
-#         shutil.copy(fname, "qualified_ai_generated_images_svm")
+        
