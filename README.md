@@ -17,4 +17,5 @@ it would generate two new folders in the same directory and the result is as fol
 Qualified images produced by svm:\
 ![image](https://github.com/helenzhangyc/AIGeneratedImageFilter/assets/45017130/c1ddd7c2-1cb5-4451-adc0-e7fd80c4d53b)
 Qualified images produced by k-means:\
-![image](https://github.com/helenzhangyc/AIGeneratedImageFilter/assets/45017130/3d13b3ff-854f-421c-b837-6c5a0775d696)
+![image](https://github.com/helenzhangyc/AIGeneratedImageFilter/assets/45017130/c8bf3e7c-7843-4327-9474-d7332371b28e)
+
