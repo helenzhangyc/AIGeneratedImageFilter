@@ -4,10 +4,10 @@ Given a set of reference images, which contains qualified reference images and u
 
 ## Usage
 - Put all the qualified reference images in the "qualified_reference_img" folder and all the unqualified reference images in the "unqualified_reference_img" folder. If you do not have any sample unqualified images as references, then you can leave the "unqualified_reference_img" folder empty.
-- Put all the AI-generated images in the "ai_generated" folder.\
-- Run main.py\
-- The program would generate folders called "qualified_ai_generated_images_kmeans" and "qualified_ai_generated_images_svm" which contain all the qualified AI-generated images produced by kmeans and SVM methods respectively.\
-- Note that when there are no unqualified reference images as input, the program will not generate "qualified_ai_generated_images_svm" since the SVM method requires some sample unqualified reference images.\
+- Put all the AI-generated images in the "ai_generated" folder.
+- Run main.py
+- The program would generate folders called "qualified_ai_generated_images_kmeans" and "qualified_ai_generated_images_svm" which contain all the qualified AI-generated images produced by kmeans and SVM methods respectively.
+- Note that when there are no unqualified reference images as input, the program will not generate "qualified_ai_generated_images_svm" since the SVM method requires some sample unqualified reference images.
 - Note that you might want to change the threshold value and k value in kmeans.py for your own dataset. You might also want to change the kernel function for SVM in svm.py.
 
 ## Example
